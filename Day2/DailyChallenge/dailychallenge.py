@@ -2,15 +2,15 @@
 
 mot = input("Entrez un mot : ")
 
-lettres_index = {}
+word_index = {}
 
-for index, lettre in enumerate(mot):
-    if lettre in lettres_index:
-        lettres_index[lettre].append(index)
+for index, word in enumerate(mot):
+    if lettre in word_index:
+        word_index[word].append(index)
     else:
-        lettres_index[lettre] = [index]
+     word_index[word] = [index]
 
-print(lettres_index)
+print(word_index)
 
 # Defi 2
 
